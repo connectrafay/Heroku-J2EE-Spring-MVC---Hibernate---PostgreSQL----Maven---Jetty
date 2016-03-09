@@ -1,0 +1,16 @@
+{
+  "name": "springmvc-hibernate-jetty-json",
+  "scripts": {
+  },
+  "env": {
+    "DATABASE_URL": "postgres://dbgzcpausupcje:w6EqdTGpQU4MkhfcX4bDb7HRxu@ec2-54-83-56-31.compute-1.amazonaws.com:5432/d7dvm2i6ndccsq"
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "urn:buildpack:heroku/java"
+    }
+  ]
+}
